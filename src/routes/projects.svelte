@@ -7,7 +7,7 @@
 			title: "Listen Up",
 			description:
 				"This project was born out of the need for a tool to test webhooks in realtime. It is a full-stack app that creates an endpoint for you which you can send POST requests to and see the results in realtime. This is useful for testing webhook sending from another webserver. Note: This is hosted on the free tier of Zeit Now, so it may take a moment to spin up.",
-			tools: ["Tailwind CSS", "FeathersJS", "Zeit Now", "MongoDB"],
+			tools: ["Tailwind CSS", "Vue", "FeathersJS", "Zeit Now", "MongoDB"],
 			image: "listen-up-card.png",
 			url: "https://listenup.now.sh",
 			github_url: "https://github.com/3Cordguy/listen-up"
