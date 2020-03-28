@@ -27,7 +27,7 @@ let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean',
 </style>
 
 <svelte:head>
-	<title>about</title>
+	<title>Josh Weaver : About</title>
 </svelte:head>
 
 <div class="section main-background">
