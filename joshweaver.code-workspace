@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.useTabStops": true,
+		"editor.trimAutoWhitespace": true,
+		"files.insertFinalNewline": true
+	}
+}
