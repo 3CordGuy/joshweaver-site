@@ -1,46 +1,44 @@
+<script>
+import Social from '../components/Social.svelte'
+</script>
+
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
+.main-background {
+	background: url(trees.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+figure {
+	margin-bottom: 1rem;
+}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Josh Weaver</title>
 </svelte:head>
 
-<h1>Great success!</h1>
 
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<section class="hero is-dark is-fullheight-with-navbar main-background">
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-three-quarters">
+					<figure class="image is-128x128">
+						<img alt="Josh Weaver is a JavaScript Developer from the Midwest" class="is-rounded" src="josh-headshot.png">
+					</figure>
+					<h1 class="title is-1">
+						Hello, I'm Josh Weaver
+					</h1>
+					<h2 class="subtitle">
+						I make things with JavaScript
+					</h2>
+					<Social color="light" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
