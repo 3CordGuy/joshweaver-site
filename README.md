@@ -1,5 +1,7 @@
 # My Personal Website Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/960d4368-3db8-4076-ba27-3e393dbfc779/deploy-status)](https://app.netlify.com/sites/joshweaver/deploys)
+
 This site uses the default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
 
 
