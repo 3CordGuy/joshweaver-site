@@ -66,7 +66,7 @@ let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean',
 			<div class="column is-4 is-half-tablet">
 				<div class="box">
 					<h2 class="title has-text-dark">Tooling</h2>
-					<h3 class="subtitle">My Mac is my workbech. These are my tools.</h3>
+					<h3 class="subtitle">My Mac is my workbench. These are my tools.</h3>
 					<ul class="">
 						<ToolingListItem isHeading={true} text="Programming" icon='' />
 						{#each languages as item}
