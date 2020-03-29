@@ -36,7 +36,7 @@
 
 		<div class="navbar-end">
 			<div class="navbar-item">
-				<Social color="light" />
+				<Social color="grey" />
 			</div>
 		</div>
 	</div>
