@@ -32,6 +32,7 @@
 		<div class="navbar-start">
 			<a class="navbar-item" href="about" aria-current='{segment === "about" ? "page" : undefined}'>About</a>
 			<a class="navbar-item" href="projects" aria-current='{segment === "projects" ? "page" : undefined}'>Projects</a>
+			<a class="navbar-item" href="2020-josh-weaver-resume.pdf" target="_blank" aria-current='{segment === "projects" ? "page" : undefined}'>Resume</a>
 		</div>
 
 		<div class="navbar-end">
