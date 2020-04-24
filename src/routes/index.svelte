@@ -31,7 +31,7 @@ figure {
 						<img alt="Josh Weaver is a JavaScript Developer from the Midwest" class="is-rounded" src="josh-headshot.png">
 					</figure>
 					<h1 class="title is-1">
-						Hello, I'm Josh Weaver
+						Hello, I'm Josh Weaver 👋
 					</h1>
 					<h2 class="subtitle">
 						I make things with JavaScript
