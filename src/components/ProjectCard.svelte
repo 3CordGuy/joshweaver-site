@@ -36,6 +36,6 @@ export let github
 	</div>
 	<footer class="card-footer">
 		<a href="{url}" class="card-footer-item">View {title}</a>
-		<a href="{github}" class="card-footer-item"><span class="icon is-small"><i class="fab fa-1x fa-github"></i></span>&nbsp;Source</a>
+		{#if github}<a href="{github}" class="card-footer-item"><span class="icon is-small"><i class="fab fa-1x fa-github"></i></span>&nbsp;Source</a>{/if}
 	</footer>
 </div>

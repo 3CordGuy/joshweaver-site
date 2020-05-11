@@ -4,10 +4,18 @@
 	
 	let projects = [
 		{
+			title: "JNP Website",
+			description:
+				"Joyful Noise Learning is my wife's web presence for her YouTube channel. Once a public teacher, she now homeschools and helps others get started in the task of schooling from home. This is a Gatsby site that features a blog that pulls data from Contentful (headless CMS) and rebuilds when content changes. I also designed the logo, and promotional art for her eBooks and printed products.",
+			tools: ["Tailwind CSS", "React", "Gatsby", "Netlify", "Contentful"],
+			image: "joyfulnoiselearning-card.png",
+			url: "https://joyfulnoiselearning.com"
+		},
+		{
 			title: "Listen Up",
 			description:
 				"This project was born out of the need for a tool to test webhooks in realtime. It is a full-stack app that creates an endpoint for you which you can send POST requests to and see the results in realtime. This is useful for testing webhook sending from another webserver. Note: This is hosted on the free tier of Zeit Now, so it may take a moment to spin up.",
-			tools: ["Tailwind CSS", "Vue", "FeathersJS", "Zeit Now", "MongoDB"],
+			tools: ["Tailwind CSS", "Vue", "FeathersJS", "Vercel Now", "MongoDB"],
 			image: "listen-up-card.png",
 			url: "https://listenup.now.sh",
 			github_url: "https://github.com/3Cordguy/listen-up"
@@ -36,7 +44,7 @@
 
 <div class="section">
 	<div class="container">
-		<h1 class="title">Tinker Projects</h1>
+		<h1 class="title">Tinker/side Projects</h1>
 	</div>
 	<div class="container project-cards">
 		<div class="columns">
@@ -47,11 +55,12 @@
 							image={project.image}
 							description={project.description}
 							url={project.url}
+							github={project.github_url}
 							tools={project.tools} />
 				</div>
 			{/each}
 		</div>
 	</div>
-	<Footer />
 </div>
 
+	<Footer />
