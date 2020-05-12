@@ -4,7 +4,7 @@
 	
 	let projects = [
 		{
-			title: "JNP Website",
+			title: "JNL Website",
 			description:
 				"Joyful Noise Learning is my wife's web presence for her YouTube channel. Once a public teacher, she now homeschools and helps others get started in the task of schooling from home. This is a Gatsby site that features a blog that pulls data from Contentful (headless CMS) and rebuilds when content changes. I also designed the logo, and promotional art for her eBooks and printed products.",
 			tools: ["Tailwind CSS", "React", "Gatsby", "Netlify", "Contentful"],
