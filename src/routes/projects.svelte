@@ -1,7 +1,7 @@
 <script>
 	import ProjectCard from "../components/ProjectCard.svelte";
 	import Footer from '../components/Footer.svelte'
-	
+
 	let projects = [
 		{
 			title: "JNL Website",
@@ -14,7 +14,7 @@
 		{
 			title: "Listen Up",
 			description:
-				"This project was born out of the need for a tool to test webhooks in realtime. It is a full-stack app that creates an endpoint for you which you can send POST requests to and see the results in realtime. This is useful for testing webhook sending from another webserver. Note: This is hosted on the free tier of Heroku, so it may take a moment to spin up.",
+				"This project was born out of the need for a tool to test webhooks in realtime. It is a full-stack app that creates an endpoint for you which you can send POST requests to and see the results in realtime. This is useful for testing webhook sending from another webserver.",
 			tools: ["Tailwind CSS", "Vue", "FeathersJS", "Heroku", "MongoDB"],
 			image: "listen-up-card.png",
 			url: "https://listen-up-yo.herokuapp.com/",
@@ -28,6 +28,15 @@
 			image: "happy-trees-card.png",
 			url: "https://happytrees.netlify.app",
 			github_url: "https://github.com/3CordGuy/happy-trees"
+		},
+		{
+			title: "Alphabet Emojifier",
+			description:
+				"Convert text to Slack's alphabet emojis. This is a little demo project that uses Cloudlfare workers to run a string processing script that turns your text into slack alphabet emojis. Server rendered results run entirely on the Cloudflare edge.",
+			tools: ["Cloudflare Workers", "Raw HTML/css", "Vanilla JS"],
+			image: "alphabet-emojifier-card.png",
+			url: "https://alphabet-emojifier.3cordguy.workers.dev/",
+			github_url: "https://github.com/3CordGuy/alphabet-emojifier"
 		}
 	];
 </script>
@@ -35,6 +44,15 @@
 <style>
 .project-cards {
 	margin-top: 2rem;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 50%);
+}
+
+@media (max-width: 767.98px) {
+	.project-cards {
+		grid-template-columns: 100%;
+	}
 }
 </style>
 
@@ -44,21 +62,19 @@
 
 <div class="section">
 	<div class="container">
-		<h1 class="title">Tinker/side Projects</h1>
+		<h1 class="title">Hobby Projects</h1>
 	</div>
-	<div class="container project-cards">
-		<div class="columns">
+	<div class="container">
+		<div class="project-cards">
 			{#each projects as project}
-				<div class="column is-4">
-						<ProjectCard
-							title={project.title}
-							image={project.image}
-							description={project.description}
-							url={project.url}
-							github={project.github_url}
-							tools={project.tools} />
-				</div>
-			{/each}
+			<ProjectCard
+			title={project.title}
+			image={project.image}
+			description={project.description}
+			url={project.url}
+			github={project.github_url}
+			tools={project.tools} />
+				{/each}
 		</div>
 	</div>
 </div>

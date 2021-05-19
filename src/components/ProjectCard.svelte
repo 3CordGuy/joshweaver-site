@@ -8,6 +8,15 @@ export let image
 export let github
 </script>
 
+<style>
+	.card-content {
+		min-height: 300px;
+	}
+	.card {
+		border-radius: 1rem;
+		overflow:hidden;
+	}
+</style>
 <div class="card">
 	<div class="card-image">
 		<figure class="image">
