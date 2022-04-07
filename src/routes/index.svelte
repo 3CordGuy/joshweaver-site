@@ -5,7 +5,7 @@ import Social from '../components/Social.svelte'
 
 <style>
 .main-background {
-	background: url(trees.jpg) no-repeat center center fixed; 
+	background: url(trees.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -34,7 +34,7 @@ figure {
 						Hello, I'm Josh Weaver 👋
 					</h1>
 					<h2 class="subtitle">
-						I make things with JavaScript
+						I like to make things with JavaScript
 					</h2>
 					<Social color="light" />
 				</div>
