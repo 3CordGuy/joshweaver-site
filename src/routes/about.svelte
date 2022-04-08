@@ -2,19 +2,19 @@
 import ToolingListItem from '../components/ToolingListItem.svelte'
 import Footer from '../components/Footer.svelte'
 
-let languages = [{ text: 'JavaScript (es6+)', icon: 'js-square' }, { text: 'Lua' }]
+let languages = [{ text: 'JavaScript (es6+)', icon: 'js-square' }, { text: 'Lua' }, { text: 'PHP', icon: 'php' }]
 let FrontEnd = [{ text: 'React', icon: 'react' }, { text: 'Vue', icon: 'vuejs' }, { text: 'Svelte' }]
-let BackEndFull = [{ text: 'Meteor' }, { text: 'Sapper' }, { text: 'Koa' }, { text: 'Feathers' }]
+let BackEndFull = [{ text: 'Sveltkit' }, { text: 'Feathers, Koa, Express' }, { text: 'Laravel' }]
 let StaticSiteGen = [{ text: 'Gatsby' }, { text: 'Eleventy' }]
 let DataLayer = [{ text: 'MongoDB' }, { text: 'MySQL' }]
 let GraphicsDesign = [{ text: 'Adobe Products (Ps, Ai, iD)', icon: 'adobe' }, { text: 'Affinity Software by Serif (Designer, Photo)' }]
-let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean', icon: 'digital-ocean' }, { text: 'AWS Lambda', icon: 'aws' }]
+let Cloud = [{text: 'Cloudflare (Workers, Pages)'}, { text: 'Vercel' }, { text: 'Netlify' }, { text: 'Digital Ocean', icon: 'digital-ocean' }, { text: 'AWS Lambda', icon: 'aws' }]
 
 </script>
 
 <style>
 .main-background {
-	background: url(josh-smiles-too.jpg) no-repeat center center fixed; 
+	background: url(josh-smiles-too.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -56,9 +56,10 @@ let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean',
 						<li>- A completely new event registration SaaS platform that could sell tickets and merchandice with a monthly subscription fee.</li>
 					</ul>
 					<p>&nbsp;</p>
-					<p>And since then I've been performing the role of JavaScript developer for a fully-distributed team that builds fundraising and event registration software.</p>
+					<p>And since then I've been thrilled to be a full stack engineer that builds software for non-profits and churches.</p>
+					<p>Recently I had the honor of building an open source ui framework that our engineering team uses called <a href="https://www.mainsail-ui.com">Mainsail UI</a>. I've fallen in love with the intersection of design and engineering. And documentation. I actually geek out over good docs.</p>
 					<p>&nbsp;</p>
-					<p>Though my journey started with graphic design for print and web, I've ended up slinging script in a code editor. I wouldn't have expected this transition, but this work has solidified a realization in my mind. Coding is a creative process. From ideation, to iteration, to realization. Though the landscape is ever changing and new practices and frameworks pop up each day, I love being a part of this community of JavaScript developers.</p>
+					<p>Though my journey started with graphic design for print and web, I've ended up slinging script in a code editor. I wouldn't have expected this transition, but this work has solidified a realization in my mind. Coding is a creative process. From ideation, to iteration, to realization. Though the landscape is ever changing and new practices and frameworks pop up each day, I love being a part of this community of developers.</p>
 					<p>&nbsp;</p>
 					<p>I can't wait to see where this wind blows next.</p>
 				</div>
@@ -72,7 +73,7 @@ let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean',
 						{#each languages as item}
 							<ToolingListItem isHeading={false} text={item.text} icon={item.icon} />
 						{/each}
-						
+
 						<ToolingListItem isHeading={true} text="Frontend Frameworks" icon='' />
 						{#each FrontEnd as item}
 							<ToolingListItem isHeading={false} text={item.text} icon={item.icon} />
@@ -88,7 +89,7 @@ let Cloud = [{ text: 'Zeit Now' }, { text: 'Netlify' }, { text: 'Digital Ocean',
 							<ToolingListItem isHeading={false} text={item.text} icon={item.icon} />
 						{/each}
 
-						<ToolingListItem isHeading={true} text="Data Layer" icon='' />
+						<ToolingListItem isHeading={true} text="Data Layers" icon='' />
 						{#each DataLayer as item}
 							<ToolingListItem isHeading={false} text={item.text} icon={item.icon} />
 						{/each}
