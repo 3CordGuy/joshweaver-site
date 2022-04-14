@@ -4,6 +4,15 @@
 
 	let projects = [
 		{
+			title: "Coder's Liturgy",
+			description:
+				"This is a personal passion project to create a resource for myself and other coders of faith. It is collection of prayers presented cleanly that can help point a heart in the right direction. The prayers and icons are all original works along with the site layout & design.",
+			tools: ["Tailwind CSS", "Sveltekit", "Cloudflare Pages", "ESV API"],
+			image: "coders-liturgy-card.png",
+			url: "https://codersliturgy.com",
+			github_url: "https://github.com/3Cordguy/coders-liturgy"
+		},
+		{
 			title: "JNL Website",
 			description:
 				"Joyful Noise Learning is my wife's web presence for her YouTube channel. Once a public teacher, she now homeschools and helps others get started in the task of schooling from home. This is a Gatsby site that features a blog that pulls data from Contentful (headless CMS) and rebuilds when content changes. I also designed the logo, and promotional art for her eBooks and printed products.",
