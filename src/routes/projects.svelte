@@ -6,7 +6,7 @@
 		{
 			title: "Coder's Liturgy",
 			description:
-				"This is a personal passion project to create a resource for myself and other coders of the Christian faith. It is collection of prayers presented cleanly that can help point a heart in the right direction for work. The prayers and their associated icons are all original works along with the site layout & design.",
+				"This is a personal passion project to create a resource for myself and other coders of the Christian faith. It is collection of prayers presented cleanly that can help point a heart in the right direction for work. The prayers and their associated icons are all original efforts along with the site layout & design.",
 			tools: ["Tailwind CSS", "Sveltekit", "Cloudflare Pages", "ESV API"],
 			image: "coders-liturgy-card.png",
 			url: "https://codersliturgy.com",
