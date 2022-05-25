@@ -57,7 +57,7 @@ let Cloud = [{text: 'Cloudflare (Workers, Pages)'}, { text: 'Vercel' }, { text: 
 					</ul>
 					<p>&nbsp;</p>
 					<p>And since then I've been thrilled to be a full stack engineer that builds software for non-profits and churches.</p>
-					<p>Recently I had the honor of building an open source ui framework that our engineering team uses called <a href="https://www.mainsail-ui.com">Mainsail UI</a>. I've fallen in love with the intersection of design and engineering. And documentation. I actually geek out over good docs.</p>
+					<p>Recently I had the honor of building an open source ui framework that our engineering team uses called <a href="https://github.com/BreezeChMS/mainsail-ui">Mainsail UI</a>. I've fallen in love with the intersection of design and engineering. And documentation. I actually geek out over good docs.</p>
 					<p>&nbsp;</p>
 					<p>Though my journey started with graphic design for print and web, I've ended up slinging script in a code editor. I wouldn't have expected this transition, but this work has solidified a realization in my mind. Coding is a creative process. From ideation, to iteration, to realization. Though the landscape is ever changing and new practices and frameworks pop up each day, I love being a part of this community of developers.</p>
 					<p>&nbsp;&nbsp;</p>
