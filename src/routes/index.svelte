@@ -28,7 +28,7 @@ figure {
 			<div class="columns">
 				<div class="column is-three-quarters">
 					<figure class="image is-128x128">
-						<img alt="Josh Weaver is a JavaScript Developer from the Midwest" class="is-rounded" src="josh-headshot.png">
+						<img alt="Josh Weaver is a JavaScript Developer from the Midwest" class="is-rounded" src="josh-headshot-2021.jpg">
 					</figure>
 					<h1 class="title is-1">
 						Hello, I'm Josh Weaver 👋
