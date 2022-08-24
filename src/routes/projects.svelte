@@ -26,7 +26,7 @@
 				"This project was born out of the need for a tool to test webhooks in realtime. It is a full-stack app that creates an endpoint for you which you can send POST requests to and see the results in realtime. This is useful for testing webhook sending from another webserver.",
 			tools: ["Tailwind CSS", "Vue", "FeathersJS", "Fly.io", "MongoDB"],
 			image: "listen-up-card.png",
-			url: "https://listen-up-yo.herokuapp.com/",
+			url: "https://heylistenup.app/",
 			github_url: "https://github.com/3Cordguy/listen-up"
 		},
 		{
